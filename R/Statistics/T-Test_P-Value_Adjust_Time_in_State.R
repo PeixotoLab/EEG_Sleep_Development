@@ -1,13 +1,10 @@
 # T-test and P-value adjustments
-# Katie Ford
+# Kaitlyn Ford
 # 6/2/2022
 
 # Load readxl package
 # Version: 1.4.0
 library(readxl)
-
-# Set working directory
-setwd("~/Dropbox/Shank3Baby_Data/Time in State (all ages)")
 
 # Note that all values were compared with LM, and double checked on 6/9/22
 
