@@ -1,13 +1,10 @@
 # T-test and P-value adjustments
-# Katie Ford
+# Kaitlyn Ford
 # 6/1/2022
 
 # Load readxl package
 # Version: 1.4.0
 library(readxl)
-
-# Set working directory
-setwd("~/Dropbox/Shank3Baby_Data/Bout_Analysis")
 
 #### Bout Number ####
 
