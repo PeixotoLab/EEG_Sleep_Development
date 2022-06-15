@@ -14,8 +14,6 @@ library(dplyr) # Version 1.0.9
 
 library(tidyr) # Version 1.2.0
 
-setwd("~/Dropbox/Shank3Baby_Data/Spectral (all ages)/KFord_Spectral_for_R")
-
 # Light Period: 
 data <- read_xlsx("All_Ages_BL_LP_Spectral_Organized_by_State.xlsx")
 # Dark Period:
@@ -86,13 +84,10 @@ for(this_index in index_lev) {
             c(to_plot$lower, rev(to_plot$upper)),
             col = shadow_col[i],
             border = NA)
-    lines(to_plot$hz, fit, lwd=2, col = c("black", "red")[i]) # double check these bc they were wrong on the source file
+    lines(to_plot$hz, fit, lwd=2, col = c("black", "red")[i]) 
   }
   
-  #legend(x = "topright",horiz = TRUE, c("WT", "MT"),
-  #       pch = c(NA, NA), col = c("black", "red"),
-  #       cex = 1, bty = 'n',
-  #       box.lty = c('NA', 'NA'), lwd = 3 )
+ 
 }
 
 sink('sessionInfo.txt')
