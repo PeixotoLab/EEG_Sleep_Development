@@ -1,6 +1,6 @@
 # Analysis for Spectral Data: ALL AGES
-# Katie Ford, Date: 5/26/22
-# Adapted from the Peixoto eLife paper: https://github.com/elifesciences-publications/peixoto
+# Kaitlyn Ford, Date: 5/26/22
+# Adapted from D. Righelli, from the Peixoto lab eLife paper: https://github.com/elifesciences-publications/peixoto
 
 # GAM plots
 
